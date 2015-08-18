@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {'label': 'black-bird open file', 'command': 'black-bird:open-file'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'black-bird'
+      'submenu': [
+        { 'label': 'Start Server', 'command': 'black-bird:start-server' },
+        { 'label': 'Stop Server', 'command': 'black-bird:stop-server' },
+        { 'label': 'List files', 'command': 'black-bird:list-files' },
+        { 'label': 'Open file', 'command': 'black-bird:open-file' }
+      ]
+    ]
+  }
+]
