@@ -10,3 +10,5 @@
 'atom-workspace':
   'alt-o': 'black-bird:open-file'
   'alt-l': 'black-bird:list-files'
+  'alt-k': 'black-bird:diff-files'
+  'alt-t': 'black-bird:status'
