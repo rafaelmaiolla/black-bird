@@ -1,0 +1,3 @@
+[submodule "fuzzy-finder"]
+	path = fuzzy-finder
+	url = https://github.com/rafaelmaiolla/black-bird-fuzzy-finder
